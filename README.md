@@ -13,8 +13,7 @@
 - 名前解決
 - NATゲートウェイ
 
-- 書籍に従い、WebサーバとしてはNginxではなくApacheを使用する。
-- DBはMySQL(5.7)
+---
 
 ### 目次
 
@@ -32,3 +31,9 @@
 
 ##### ネットワーク関連コマンド
 `ping`, `traceroute`, `telnet`, `nslookup`, `dig`
+
+---
+
+- 書籍に従い、WebサーバとしてはNginxではなくApacheを使用する。
+- DBはMySQL(5.7)
+- OSは基本的に標準的なEC2用の無料利用枠AMIのLinuxバージョンを利用
