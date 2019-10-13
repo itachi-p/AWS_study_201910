@@ -57,7 +57,14 @@ CHAPTER1-3(図1-5)に従い、以下を実装しながら学んでいく。
 
 ### (方針変更）AWS & Docker & Laravelを最初から組み合わせて公開用ポートフォリオ作成するのは一旦停止
 
-- それぞれに対する理解を深める為に一旦3つのリポジトリに分解して学習を進める（ただし並行して進める）
+→　一旦AWSはAWS、DockerはDocker、LaravelはLaravel(ただしLaradockは利用)に分割して学習し直す
+- それぞれの教材は既に購入済み
+  - AWSでWordpressブログシステム構築→Kindle本
+  - Docker、Dockerfile、 docker-compose.yml、docker-machine→Udemy動画
+  - Laravel(Laradock)でアプリ開発→リアル書籍及び電子書籍ほか
+- 最終的にそれら全てを統合＆かつAWSの各リソースを`Terraform`を使って管理し、かつ`CircleCI`を組み込んでビルド、テスト、デプロイの自動化までを一式揃えた環境を実現する為の教材としてBOOTHで買ったPDF教材に進む。
+
+- まずはそれぞれに対する理解を深める為に一旦3つのリポジトリに分解して学習を進める（ただし並行して進める）
   - Laravelアプリは一旦Laravelだけ（ただしLaradockは使用）で公開用アプリケーション作成に集中する
   - DockerはDocker学習（特にDockerfile及びdocker-compose.yml）への理解を深める目的だけに絞り別のリポジトリ作成
   - AWSは「さわって学ぶクラウドインフラ Amazon Web Service基礎からのネットワーク＆サーバー構築　改訂版」に従い進める
